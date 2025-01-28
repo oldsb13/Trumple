@@ -1,12 +1,26 @@
-   <div id="game-board">
-       <div class="row" id="row-0">
-           <div class="cell"></div>
-           <div class="cell"></div>
-           <div class="cell"></div>
-           <div class="cell"></div>
-           <div class="cell"></div>
-       </div>
-       <!-- Repeat for 5 more rows -->
-   </div>
-   <input type="text" id="guess-input" maxlength="5">
-   <button id="submit-guess">Submit</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordle Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Wordle Game</h1>
+    <div id="game-board">
+        <!-- Rows for guesses -->
+        <div class="row" id="row-0">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <!-- Repeat for 5 more rows -->
+    </div>
+    <input type="text" id="guess-input" maxlength="5" placeholder="Enter your guess">
+    <button id="submit-guess">Submit</button>
+    <script src="script.js"></script>
+</body>
+</html>
